@@ -10,12 +10,12 @@ import com.ecommerce.sb_ecom.payload.ProductDTO;
 import com.ecommerce.sb_ecom.repositories.CartItemRepository;
 import com.ecommerce.sb_ecom.repositories.CartRepository;
 import com.ecommerce.sb_ecom.repositories.ProductRepository;
+import com.ecommerce.sb_ecom.util.AuthUtil;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Stream;
 
 @Service
