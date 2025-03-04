@@ -38,4 +38,13 @@ public class Payment {
         this.pgResponseMessage = pgResponseMessage;
         this.pgName = pgName;
     }
+
+    public Payment(String paymentMethod, String pgPaymentId, String pgStatus,
+                   String pgResponseMessage, String pgName) {
+        this.paymentMethod = paymentMethod;
+        this.pgPaymentId = pgPaymentId;
+        this.pgStatus = pgStatus;
+        this.pgResponseMessage = pgResponseMessage;
+        this.pgName = pgName;
+    }
 }
